@@ -243,6 +243,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             });
         })();
     </script>
+<script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'ja'; // For example, enter 'en' or 'en-US'
+
+			embeddedservice_bootstrap.init(
+				'00DBC000003lNNg',
+				'Sample_Shop_Chat',
+				'https://aufheben--dev7.sandbox.my.site.com/ESWSampleShopCh1795063510368',
+				{
+					scrt2URL: 'https://aufheben--dev7.sandbox.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://aufheben--dev7.sandbox.my.site.com/ESWSampleShopCh1795063510368/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 </body>
 </html>
