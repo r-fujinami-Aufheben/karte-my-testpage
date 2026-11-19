@@ -271,8 +271,8 @@
   function mountLog() {
     var css = d.createElement('style');
     css.textContent =
-      '#demo-log{position:fixed;right:16px;bottom:16px;width:360px;max-width:calc(100vw - 32px);z-index:9000;font-family:Menlo,Consolas,monospace;font-size:12px}' +
-      '#demo-log>button{float:right;background:#202124;color:#fff;border:none;border-radius:16px;padding:8px 14px;cursor:pointer;font-size:12px;font-weight:bold;box-shadow:0 2px 6px rgba(0,0,0,.3)}' +
+      '#demo-log{position:fixed;left:16px;bottom:16px;width:360px;max-width:calc(100vw - 32px);z-index:9000;font-family:Menlo,Consolas,monospace;font-size:12px}' +
+      '#demo-log>button{float:left;background:#202124;color:#fff;border:none;border-radius:16px;padding:8px 14px;cursor:pointer;font-size:12px;font-weight:bold;box-shadow:0 2px 6px rgba(0,0,0,.3)}' +
       '#demo-log .panel{clear:both;display:none;background:#fff;border:1px solid #ccc;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.2);margin-bottom:8px;max-height:55vh;overflow:auto}' +
       '#demo-log.open .panel{display:block}' +
       '#demo-log .head{display:flex;justify-content:space-between;align-items:center;padding:8px 10px;border-bottom:1px solid #eee;position:sticky;top:0;background:#fff;font-family:sans-serif;font-weight:bold}' +
